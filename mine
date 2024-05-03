@@ -21,3 +21,32 @@ class MyApp extends StatelessWidget
        }
     }
 }
+
+class MyHomePage extends StatelessWidget 
+{
+  const MyHomePage ({Key key}): super (key: key);
+  
+  @override
+  _MyHomePageState () => _MyHomePageState();
+}
+
+class _MyHomePage extends State <MyHomePage>
+{
+  @overrride
+  Widget build (BuildContext context)
+  {
+    return Container (
+           child: SafeArea(
+           child: Scaffold(
+                  body: Column (
+                  children: [ 
+                              
+                              Row (
+                               children: [ ImageIcon(AssetImage(xxxxxxxx), size: xx, color: Colors.black),
+                              Row (
+                               children: [ Icon (Icon.search),
+                                           
+                                           Icon (Icon.notification),
+    )
+  }
+}
